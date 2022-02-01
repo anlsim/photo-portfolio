@@ -8,25 +8,6 @@ export default function Home() {
       <Head>
         <title>Photography Portfolio</title>
       </Head>
-      <nav>
-        <ul>
-          <li>
-            <Link href='/nature'>
-              <a>Nature</a>
-            </Link>
-          </li>
-          <li>
-          <Link href='/people'>
-              <a>People</a>
-            </Link>
-          </li>
-          <li>
-          <Link href='/night'>
-              <a>Night</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
       <main>
         <h1>Home</h1>
       </main>
