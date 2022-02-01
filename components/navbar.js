@@ -3,6 +3,11 @@ const Navbar = () => {
   return (
     <nav>
     <ul>
+    <li>
+      <Link href='/'>
+          <a>Home</a>
+        </Link>
+      </li>
       <li>
         <Link href='/nature'>
           <a>Nature</a>
@@ -16,6 +21,11 @@ const Navbar = () => {
       <li>
       <Link href='/night'>
           <a>Night</a>
+        </Link>
+      </li>
+      <li>
+      <Link href='/about'>
+          <a>About</a>
         </Link>
       </li>
     </ul>
